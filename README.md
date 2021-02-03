@@ -36,15 +36,10 @@ First by the Farmer, then the Distributor, the Retailer, and the Consumer, each 
 The project is divided into a backend that publishes _smart contracts_ to the _Ethereum network_, and a frontend that allows the interaction with them.
 
 ## Technology Stack
-- [Solidity](#)
-- [Truffle](#)
-- [Web3.js](#)
-
-- Solidity v0.5.16
-- openzeppelin-solidity v2.4.0
-- Truffle v5.1.60
-- Node v15.3.0
-- Web3.js v1.2.9
+- [Truffle v5.1.65](#)
+- [Solidity v0.5.16](#)
+- [Node v15.3.0](#)
+- [Web3.js v1.2.9](#)
 
 ## Set Up
 ### Prerequisites
@@ -70,6 +65,8 @@ touch .secret
 To generate the contracts artifacts and deploy them to a local blockchain network using truffle, run:
 ```shell
 # start a local network and run the truffle console
+$ truffle console
+# or if you don't have ganache running
 $ truffle develop
 # creates the bytecode and the ABI
 > compile
@@ -84,7 +81,7 @@ In a separate terminal window, launch the DApp:
 $ npm run dev
 ```
 
-and visit http://localhost/index.html
+and visit http://localhost/3000
 
 ## Run Tests
 The test should be run after the contract is migrated
@@ -96,7 +93,8 @@ $ truffle test
 # Deployment
 
 ## Publish
-Publishing the _smart contract_ into a public network requires a wallet with Ether
+Publishing the _smart contract_ into a public network requires a wallet with Ether, and an Infura account.
+Store the mnemonic of the wallet with founds in the `.secret` file
 
 ```shell
 # publish into rinkeby test network
