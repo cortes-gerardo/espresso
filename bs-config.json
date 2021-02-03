@@ -1,0 +1,5 @@
+{
+  "server": {
+    "baseDir": ["./","./src", "./espresso/build/contracts"]
+  }
+}
