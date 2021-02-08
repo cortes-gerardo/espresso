@@ -7,28 +7,9 @@ Espresso is a decentralized application _(DApp)_ for the supply chain of coffee 
 The product is tracked and verified by each member of the supply chain.
 First by the Farmer, then the Distributor, the Retailer, and the Consumer, each actor with specific functions.
 
-![screenshot](img/screenshot)
+![screenshot](screenshot.png)
 
-## TOC
-- [Espresso](#espresso)
-    * [Description](#description)
-    * [Contributing](#contributing)
-- [Local Development](#local-development)
-    * [Technology Stack](#technology-stack)
-    * [Set Up](#set-up)
-        + [Prerequisites](#prerequisites)
-    * [Build](#build)
-        + [Backend](#backend)
-        + [Frontend](#frontend)
-    * [Run Tests](#run-tests)
-    * [Publish](#publish)
-- [User Guide](#user-guide)
-    * [Documentation](#documentation)
-    * [Known issues](#known-issues)
-- [Authors](#authors)
-
-## Guidelines
-- [How to contribute](CONTRIBUTING.md)
+It is published over the Rinkeby network at [0x236ee84FC521d2f665D9c244C54970Efc2a59942](https://rinkeby.etherscan.io/address/0x236ee84FC521d2f665D9c244C54970Efc2a59942)
 
 ---
 
@@ -36,10 +17,10 @@ First by the Farmer, then the Distributor, the Retailer, and the Consumer, each 
 The project is divided into a backend that publishes _smart contracts_ to the _Ethereum network_, and a frontend that allows the interaction with them.
 
 ## Technology Stack
-- [Truffle v5.1.65](#)
-- [Solidity v0.5.16](#)
-- [Node v15.3.0](#)
-- [Web3.js v1.2.9](#)
+- Truffle v5.1.65](#)
+- Solidity v0.5.16](#)
+- Node v15.3.0
+- Web3.js v1.2.9
 
 ## Set Up
 ### Prerequisites
@@ -106,7 +87,6 @@ truffle migrate --reset --network rinkeby
 # User Guide
 ## Documentation
 Documentation for the client
-- [Users Manual](www.wiki.com)
 - [Software Architecture Document](SAD.md)
 
 ---
