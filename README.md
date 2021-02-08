@@ -10,17 +10,18 @@ First by the Farmer, then the Distributor, the Retailer, and the Consumer, each 
 ![screenshot](screenshot.png)
 
 It is published over the Rinkeby network at [0x236ee84FC521d2f665D9c244C54970Efc2a59942](https://rinkeby.etherscan.io/address/0x236ee84FC521d2f665D9c244C54970Efc2a59942)
-
+And the TxID is [0x83e7b91314609d426b7bddd787ab61c98ce73b46c00fb3dbea4542aae4e02199](https://rinkeby.etherscan.io/tx/0x83e7b91314609d426b7bddd787ab61c98ce73b46c00fb3dbea4542aae4e02199)
 ---
 
 # Local Development
 The project is divided into a backend that publishes _smart contracts_ to the _Ethereum network_, and a frontend that allows the interaction with them.
 
 ## Technology Stack
-- Truffle v5.1.65](#)
-- Solidity v0.5.16](#)
-- Node v15.3.0
-- Web3.js v1.2.9
+- Truffle v5.1.65: As a framework for developing and testing the _smart contracts_. 
+- Web3.js v1.2.9: Is the library that connects to the blockchain network and allows the interaction with the contract.
+- lite-server 2.4.0: As a node server to exposes the frontend section.
+- Node v15.3.0: As a framework over all the libraries are running and the package management system.
+- @truffle/hdwallet-provider v1.2.1: this provides the wallet to interact with the Rinkeby network.
 
 ## Set Up
 ### Prerequisites
